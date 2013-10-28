@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76D9254F181615CA006D6906 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D9254E181615CA006D6906 /* UIKit.framework */; };
+		76D92551181615CA006D6906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D92550181615CA006D6906 /* Foundation.framework */; };
+		76D92553181615CA006D6906 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D92552181615CA006D6906 /* CoreGraphics.framework */; };
+		76D92559181615CA006D6906 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76D92557181615CA006D6906 /* InfoPlist.strings */; };
+		76D9255B181615CA006D6906 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D9255A181615CA006D6906 /* main.m */; };
+		76D9255F181615CA006D6906 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D9255E181615CA006D6906 /* AppDelegate.m */; };
+		76D92561181615CA006D6906 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D92560181615CA006D6906 /* Default.png */; };
+		76D92563181615CA006D6906 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D92562181615CA006D6906 /* Default@2x.png */; };
+		76D92565181615CA006D6906 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D92564181615CA006D6906 /* Default-568h@2x.png */; };
+		76D92568181615CA006D6906 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76D92566181615CA006D6906 /* MainStoryboard_iPhone.storyboard */; };
+		76D9256B181615CA006D6906 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76D92569181615CA006D6906 /* MainStoryboard_iPad.storyboard */; };
+		76D9256E181615CA006D6906 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D9256D181615CA006D6906 /* MasterViewController.m */; };
+		76D92571181615CA006D6906 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D92570181615CA006D6906 /* DetailViewController.m */; };
+		76D9257F1816185B006D6906 /* GTMOAuthAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D925791816185B006D6906 /* GTMOAuthAuthentication.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		76D925801816185B006D6906 /* GTMOAuthSignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D9257B1816185B006D6906 /* GTMOAuthSignIn.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		76D925811816185B006D6906 /* GTMOAuthViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D9257D1816185B006D6906 /* GTMOAuthViewControllerTouch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		76D925821816185B006D6906 /* GTMOAuthViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76D9257E1816185B006D6906 /* GTMOAuthViewTouch.xib */; };
+		76D92586181618D3006D6906 /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D92585181618D3006D6906 /* GTMHTTPFetcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		76D9258818161AAB006D6906 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D9258718161AAB006D6906 /* Security.framework */; };
+		76D9258A18161AB7006D6906 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D9258918161AB7006D6906 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		76D9254B181615CA006D6906 /* Seeba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seeba.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D9254E181615CA006D6906 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		76D92550181615CA006D6906 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		76D92552181615CA006D6906 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		76D92556181615CA006D6906 /* Seeba-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Seeba-Info.plist"; sourceTree = "<group>"; };
+		76D92558181615CA006D6906 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		76D9255A181615CA006D6906 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76D9255C181615CA006D6906 /* Seeba-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Seeba-Prefix.pch"; sourceTree = "<group>"; };
+		76D9255D181615CA006D6906 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76D9255E181615CA006D6906 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76D92560181615CA006D6906 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		76D92562181615CA006D6906 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		76D92564181615CA006D6906 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		76D92567181615CA006D6906 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		76D9256A181615CA006D6906 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		76D9256C181615CA006D6906 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		76D9256D181615CA006D6906 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		76D9256F181615CA006D6906 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		76D92570181615CA006D6906 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		76D925781816185B006D6906 /* GTMOAuthAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuthAuthentication.h; sourceTree = "<group>"; };
+		76D925791816185B006D6906 /* GTMOAuthAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuthAuthentication.m; sourceTree = "<group>"; };
+		76D9257A1816185B006D6906 /* GTMOAuthSignIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuthSignIn.h; sourceTree = "<group>"; };
+		76D9257B1816185B006D6906 /* GTMOAuthSignIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuthSignIn.m; sourceTree = "<group>"; };
+		76D9257C1816185B006D6906 /* GTMOAuthViewControllerTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuthViewControllerTouch.h; sourceTree = "<group>"; };
+		76D9257D1816185B006D6906 /* GTMOAuthViewControllerTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuthViewControllerTouch.m; sourceTree = "<group>"; };
+		76D9257E1816185B006D6906 /* GTMOAuthViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMOAuthViewTouch.xib; sourceTree = "<group>"; };
+		76D92584181618D3006D6906 /* GTMHTTPFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcher.h; sourceTree = "<group>"; };
+		76D92585181618D3006D6906 /* GTMHTTPFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcher.m; sourceTree = "<group>"; };
+		76D9258718161AAB006D6906 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		76D9258918161AB7006D6906 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76D92548181615CA006D6906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D9258A18161AB7006D6906 /* SystemConfiguration.framework in Frameworks */,
+				76D9258818161AAB006D6906 /* Security.framework in Frameworks */,
+				76D9254F181615CA006D6906 /* UIKit.framework in Frameworks */,
+				76D92551181615CA006D6906 /* Foundation.framework in Frameworks */,
+				76D92553181615CA006D6906 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76D92542181615CA006D6906 = {
+			isa = PBXGroup;
+			children = (
+				76D9258918161AB7006D6906 /* SystemConfiguration.framework */,
+				76D9258718161AAB006D6906 /* Security.framework */,
+				76D92554181615CA006D6906 /* Seeba */,
+				76D9254D181615CA006D6906 /* Frameworks */,
+				76D9254C181615CA006D6906 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76D9254C181615CA006D6906 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76D9254B181615CA006D6906 /* Seeba.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76D9254D181615CA006D6906 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76D9254E181615CA006D6906 /* UIKit.framework */,
+				76D92550181615CA006D6906 /* Foundation.framework */,
+				76D92552181615CA006D6906 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76D92554181615CA006D6906 /* Seeba */ = {
+			isa = PBXGroup;
+			children = (
+				76D925771816185B006D6906 /* GTMOAuth */,
+				76D9255D181615CA006D6906 /* AppDelegate.h */,
+				76D9255E181615CA006D6906 /* AppDelegate.m */,
+				76D92583181618D3006D6906 /* GTMOHTTPFetcher */,
+				76D92566181615CA006D6906 /* MainStoryboard_iPhone.storyboard */,
+				76D92569181615CA006D6906 /* MainStoryboard_iPad.storyboard */,
+				76D9256C181615CA006D6906 /* MasterViewController.h */,
+				76D9256D181615CA006D6906 /* MasterViewController.m */,
+				76D9256F181615CA006D6906 /* DetailViewController.h */,
+				76D92570181615CA006D6906 /* DetailViewController.m */,
+				76D92555181615CA006D6906 /* Supporting Files */,
+			);
+			path = Seeba;
+			sourceTree = "<group>";
+		};
+		76D92555181615CA006D6906 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76D92556181615CA006D6906 /* Seeba-Info.plist */,
+				76D92557181615CA006D6906 /* InfoPlist.strings */,
+				76D9255A181615CA006D6906 /* main.m */,
+				76D9255C181615CA006D6906 /* Seeba-Prefix.pch */,
+				76D92560181615CA006D6906 /* Default.png */,
+				76D92562181615CA006D6906 /* Default@2x.png */,
+				76D92564181615CA006D6906 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76D925771816185B006D6906 /* GTMOAuth */ = {
+			isa = PBXGroup;
+			children = (
+				76D925781816185B006D6906 /* GTMOAuthAuthentication.h */,
+				76D925791816185B006D6906 /* GTMOAuthAuthentication.m */,
+				76D9257A1816185B006D6906 /* GTMOAuthSignIn.h */,
+				76D9257B1816185B006D6906 /* GTMOAuthSignIn.m */,
+				76D9257C1816185B006D6906 /* GTMOAuthViewControllerTouch.h */,
+				76D9257D1816185B006D6906 /* GTMOAuthViewControllerTouch.m */,
+				76D9257E1816185B006D6906 /* GTMOAuthViewTouch.xib */,
+			);
+			path = GTMOAuth;
+			sourceTree = "<group>";
+		};
+		76D92583181618D3006D6906 /* GTMOHTTPFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				76D92584181618D3006D6906 /* GTMHTTPFetcher.h */,
+				76D92585181618D3006D6906 /* GTMHTTPFetcher.m */,
+			);
+			path = GTMOHTTPFetcher;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76D9254A181615CA006D6906 /* Seeba */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76D92574181615CA006D6906 /* Build configuration list for PBXNativeTarget "Seeba" */;
+			buildPhases = (
+				76D92547181615CA006D6906 /* Sources */,
+				76D92548181615CA006D6906 /* Frameworks */,
+				76D92549181615CA006D6906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Seeba;
+			productName = Seeba;
+			productReference = 76D9254B181615CA006D6906 /* Seeba.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76D92543181615CA006D6906 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "大嶺 卓矢";
+			};
+			buildConfigurationList = 76D92546181615CA006D6906 /* Build configuration list for PBXProject "Seeba" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 76D92542181615CA006D6906;
+			productRefGroup = 76D9254C181615CA006D6906 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76D9254A181615CA006D6906 /* Seeba */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76D92549181615CA006D6906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D92559181615CA006D6906 /* InfoPlist.strings in Resources */,
+				76D92561181615CA006D6906 /* Default.png in Resources */,
+				76D92563181615CA006D6906 /* Default@2x.png in Resources */,
+				76D92565181615CA006D6906 /* Default-568h@2x.png in Resources */,
+				76D92568181615CA006D6906 /* MainStoryboard_iPhone.storyboard in Resources */,
+				76D9256B181615CA006D6906 /* MainStoryboard_iPad.storyboard in Resources */,
+				76D925821816185B006D6906 /* GTMOAuthViewTouch.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76D92547181615CA006D6906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D9255B181615CA006D6906 /* main.m in Sources */,
+				76D9255F181615CA006D6906 /* AppDelegate.m in Sources */,
+				76D9256E181615CA006D6906 /* MasterViewController.m in Sources */,
+				76D92571181615CA006D6906 /* DetailViewController.m in Sources */,
+				76D9257F1816185B006D6906 /* GTMOAuthAuthentication.m in Sources */,
+				76D925801816185B006D6906 /* GTMOAuthSignIn.m in Sources */,
+				76D925811816185B006D6906 /* GTMOAuthViewControllerTouch.m in Sources */,
+				76D92586181618D3006D6906 /* GTMHTTPFetcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76D92557181615CA006D6906 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76D92558181615CA006D6906 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		76D92566181615CA006D6906 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76D92567181615CA006D6906 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		76D92569181615CA006D6906 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76D9256A181615CA006D6906 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76D92572181615CA006D6906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76D92573181615CA006D6906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76D92575181615CA006D6906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Seeba/Seeba-Prefix.pch";
+				INFOPLIST_FILE = "Seeba/Seeba-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		76D92576181615CA006D6906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Seeba/Seeba-Prefix.pch";
+				INFOPLIST_FILE = "Seeba/Seeba-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76D92546181615CA006D6906 /* Build configuration list for PBXProject "Seeba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76D92572181615CA006D6906 /* Debug */,
+				76D92573181615CA006D6906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76D92574181615CA006D6906 /* Build configuration list for PBXNativeTarget "Seeba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76D92575181615CA006D6906 /* Debug */,
+				76D92576181615CA006D6906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76D92543181615CA006D6906 /* Project object */;
+}
