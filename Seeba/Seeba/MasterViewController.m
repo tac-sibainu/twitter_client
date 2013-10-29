@@ -34,9 +34,8 @@
 - (void)asyncShowHomeTimeline
 {
     [self fetchGetHomeTimeline];
- 
 /******* 追 記 *****/
-    NSTimer *TimerSwingObject = [NSTimer scheduledTimerWithTimeInterval:5.0f
+    NSTimer *TimerSwingObject = [NSTimer scheduledTimerWithTimeInterval:1.0f
                                                                  target:self
                                                                selector:@selector(StreamingTL:)
                                                                userInfo:nil
@@ -55,7 +54,6 @@
 // タイムライン (home_timeline) 取得
 - (void)fetchGetHomeTimeline
 {
-    
     // 要求を準備
     NSURL *url = [NSURL URLWithString:@"https://api.twitter.com/1.1/statuses/home_timeline.json"];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
@@ -174,7 +172,6 @@ static NSString *const kKeychainAppServiceName = @"si-ba";
     
     
     // GTMOAuthAuthenticationインスタンス生成
-    // ※自分の登録アプリの Consumer Key と Consumer Secret に書き換えてください
     NSString *consumerKey = @"2tb4YeEFfV7LtUQk3s7AQw";
     NSString *consumerSecret = @"38To4tIdT71q0lYLuxkhXeF4qJcsGQ6eH1H3xcv79U";
     auth_ = [[GTMOAuthAuthentication alloc]
